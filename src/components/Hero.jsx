@@ -19,8 +19,8 @@ const Hero = () => {
       char.classList.add("text-gradient");
     });
     gsap.from(heroSplit.chars, {
-      yPercent: 100,
-      duration: 1.8,
+      yPercent: 180,
+      duration: 0.8,
       ease: "expo.out",
       stagger: 0.06,
     });
@@ -68,10 +68,7 @@ const Hero = () => {
   return (
     <>
       <section id="hero" className="noisy">
-        <h1
-          id="title"
-          className="font-modern-negra text-5xl md:text-7xl lg:text-8xl text-gradient max-w-full mx-auto whitespace-nowrap leading-tight text-center mt-32 md:mt-64"
-        >
+        <h1 className="title font-modern-negra text-5xl md:text-7xl lg:text-8xl text-gradient max-w-full mx-auto whitespace-nowrap leading-tight text-center mt-32 md:mt-64">
           Mint Lemonade
         </h1>
 

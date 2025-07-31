@@ -1,7 +1,7 @@
 const navLinks = [
   {
-    id: "cocktails",
-    title: "Cocktails",
+    id: "lemonades",
+    title: "Lemonades",
   },
   {
     id: "about",
@@ -9,7 +9,7 @@ const navLinks = [
   },
   {
     id: "work",
-    title: "The Art",
+    title: "Our Craft",
   },
   {
     id: "contact",
@@ -18,56 +18,58 @@ const navLinks = [
 ];
 
 const cocktailLists = [
+  // Keeping variable name as per instruction, but content is lemonade themed
   {
-    name: "Chapel Hill Shiraz",
-    country: "AU",
-    detail: "Battle",
-    price: "$10",
+    name: "Classic Mint Lemonade",
+    country: "US",
+    detail: "Refreshing",
+    price: "$8",
   },
   {
-    name: "Caten Malbee",
-    country: "AU",
-    detail: "Battle",
-    price: "$49",
+    name: "Sparkling Berry Lemonade",
+    country: "US",
+    detail: "Fizzy",
+    price: "$9",
   },
   {
-    name: "Rhino Pale Ale",
+    name: "Ginger Honey Lemonade",
     country: "CA",
-    detail: "750 ml",
-    price: "$20",
+    detail: "Spiced",
+    price: "$9",
   },
   {
-    name: "Irish Guinness",
+    name: "Cucumber Basil Lemonade",
     country: "IE",
-    detail: "600 ml",
-    price: "$29",
+    detail: "Herbal",
+    price: "$8",
   },
 ];
 
 const mockTailLists = [
+  // Keeping variable name as per instruction, but content is lemonade themed
   {
-    name: "Tropical Bloom",
+    name: "Tropical Bloom Lemonade",
     country: "US",
-    detail: "Battle",
+    detail: "Exotic",
     price: "$10",
   },
   {
-    name: "Passionfruit Mint",
+    name: "Passionfruit Mint Lemonade",
     country: "US",
-    detail: "Battle",
-    price: "$49",
+    detail: "Tangy",
+    price: "$10",
   },
   {
-    name: "Citrus Glow",
+    name: "Citrus Glow Lemonade",
     country: "CA",
-    detail: "750 ml",
-    price: "$20",
+    detail: "Zesty",
+    price: "$9",
   },
   {
-    name: "Lavender Fizz",
+    name: "Lavender Fizz Lemonade",
     country: "IE",
-    detail: "600 ml",
-    price: "$29",
+    detail: "Aromatic",
+    price: "$9",
   },
 ];
 
@@ -88,32 +90,32 @@ const profileLists = [
 
 const featureLists = [
   "Perfectly balanced blends",
-  "Garnished to perfection",
+  "Freshly squeezed lemons",
   "Ice-cold every time",
-  "Expertly shaken & stirred",
+  "Expertly mixed & served",
 ];
 
 const goodLists = [
   "Handpicked ingredients",
-  "Signature techniques",
-  "Bartending artistry in action",
+  "Signature recipes",
+  "Artisanal preparation",
   "Freshly muddled flavors",
 ];
 
 const storeInfo = {
   heading: "Where to Find Us",
-  address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
+  address: "456, Lemon Drop Lane, Los Angeles, CA 90210",
   contact: {
     phone: "(555) 987-6543",
-    email: "hello@jsmcocktail.com",
+    email: "hello@jsmlemonade.com",
   },
 };
 
 const openingHours = [
-  { day: "Mon–Thu", time: "11:00am – 12am" },
-  { day: "Fri", time: "11:00am – 2am" },
-  { day: "Sat", time: "9:00am – 2am" },
-  { day: "Sun", time: "9:00am – 1am" },
+  { day: "Mon–Thu", time: "10:00am – 10pm" },
+  { day: "Fri", time: "10:00am – 11pm" },
+  { day: "Sat", time: "9:00am – 11pm" },
+  { day: "Sun", time: "9:00am – 10pm" },
 ];
 
 const socials = [
@@ -137,35 +139,35 @@ const socials = [
 const sliderLists = [
   {
     id: 1,
-    name: "Classic Mojito",
+    name: "Classic Mint Lemonade",
     image: "/images/drink1.png",
     title: "Simple Ingredients, Bold Flavor",
     description:
-      "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+      "Made with fresh lemons, cool mint, and a touch of sweetness, our classic mint lemonade is easy to enjoy and full of refreshing character. Perfect for a sunny day.",
   },
   {
     id: 2,
-    name: "Raspberry Mojito",
+    name: "Raspberry Mint Lemonade",
     image: "/images/drink2.png",
     title: "A Zesty Classic That Never Fails",
     description:
-      "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
+      "Our raspberry mint lemonade is a classic that balances tangy lime, sweet raspberries, and a hint of mint. Always crisp & refreshing, served chilled.",
   },
   {
     id: 3,
-    name: "Violet Breeze",
+    name: "Violet Breeze Lemonade",
     image: "/images/drink3.png",
     title: "Simple Ingredients, Bold Flavor",
     description:
-      "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+      "Made with fresh lemons, delicate violet, and pure cane sugar, this lemonade is easy to make and full of floral character. A delightful treat for any occasion.",
   },
   {
     id: 4,
-    name: "Curacao Mojito",
+    name: "Blue Curacao Lemonade",
     image: "/images/drink4.png",
     title: "Crafted With Care, Poured With Love",
     description:
-      "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
+      "Each lemonade is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing with a refreshing drink.",
   },
 ];
 
