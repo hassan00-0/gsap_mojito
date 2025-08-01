@@ -24,6 +24,9 @@ export default {
       borderWidth: {
         1: "1px", // This makes 'border-b-1' (or border-1) work, meaning 1 pixel
       },
+      screens: {
+        customMd: "763px",
+      },
     },
   },
   plugins: [],
