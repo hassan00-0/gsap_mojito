@@ -69,7 +69,7 @@ const Hero = () => {
     <>
       <section id="hero" className="noisy">
         <h1 className="title font-modern-negra text-5xl md:text-7xl lg:text-8xl text-gradient max-w-full mx-auto whitespace-nowrap leading-tight text-center mt-32 md:mt-64">
-          Mint Lemonade
+          Lemonade
         </h1>
 
         <img

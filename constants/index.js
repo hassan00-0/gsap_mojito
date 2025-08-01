@@ -8,7 +8,7 @@ const navLinks = [
     title: "About Us",
   },
   {
-    id: "work",
+    id: "art",
     title: "Our Craft",
   },
   {
@@ -147,27 +147,27 @@ const sliderLists = [
   },
   {
     id: 2,
-    name: "Raspberry Mint Lemonade",
+    name: "Cucumber Basil Lemonade",
     image: "/images/drink2.png",
-    title: "A Zesty Classic That Never Fails",
+    title: "Garden-Fresh Taste in Every Sip",
     description:
-      "Our raspberry mint lemonade is a classic that balances tangy lime, sweet raspberries, and a hint of mint. Always crisp & refreshing, served chilled.",
+      "A refreshing blend of crisp cucumber and aromatic basil combined with tangy lemonade. This unique twist delivers a cool, herbaceous flavor perfect for staying fresh.",
   },
   {
     id: 3,
-    name: "Violet Breeze Lemonade",
+    name: "Passionfruit Mint Lemonade",
     image: "/images/drink3.png",
-    title: "Simple Ingredients, Bold Flavor",
+    title: "Tropical Vibes, Minty Coolness",
     description:
-      "Made with fresh lemons, delicate violet, and pure cane sugar, this lemonade is easy to make and full of floral character. A delightful treat for any occasion.",
+      "Tart passionfruit meets cooling mint in this bright, tropical lemonade. Bursting with flavor and refreshment, it's summer in a glass.",
   },
   {
     id: 4,
-    name: "Blue Curacao Lemonade",
+    name: "Citrus Glow Lemonade",
     image: "/images/drink4.png",
     title: "Crafted With Care, Poured With Love",
     description:
-      "Each lemonade is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing with a refreshing drink.",
+      "A vibrant fusion of orange, lemon, and grapefruit, our Citrus Glow Lemonade shines with zesty citrus flavors. Made to uplift your senses and refresh your day.",
   },
 ];
 
